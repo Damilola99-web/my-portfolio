@@ -1,7 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 // images
 import Todo from '../assets/todo.jpg';
@@ -10,18 +7,17 @@ import Country from '../assets/countries.jpg';
 
 
 export default function Work() {
-	useEffect(()=>{Aos.init({duration: 1300})}, [])
 	return (
 		<div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8">
-					<p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300" data-aos='fade-down'>Work</p>
-					<p className="py-6" data-aos='fade-right' >{'// Check out some of my recent work'}</p>
+					<p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">Work</p>
+					<p className="py-6">{'// Check out some of my recent work'}</p>
 				</div>
 				{/* grid container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 rounded-lg">
 					{/* card */}
-					<div data-aos = 'fade-right'
+					<div
 						style={{ backgroundImage: `url(${Todo})` }}
 						className="group shadow-xl shadow-[#0a192f] container rounded-lg flex justify-center items-center mx-auto content-div"
 					>
@@ -45,7 +41,7 @@ export default function Work() {
 						</div>
 					</div>
 					{/* card */}
-					<div data-aos = 'fade-down'
+					<div
 						style={{ backgroundImage: `url(${Ecommerce})` }}
 						className="group shadow-xl shadow-[#0a192f] container rounded-lg flex justify-center items-center mx-auto content-div"
 					>
@@ -69,7 +65,7 @@ export default function Work() {
 						</div>
 					</div>
 					{/* card */}
-					<div data-aos = 'fade-left'
+					<div
 						style={{ backgroundImage: `url(${Country})` }}
 						className="group shadow-xl shadow-[#0a192f] container rounded-lg flex justify-center items-center mx-auto content-div"
 					>
