@@ -5,7 +5,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Contact = () => {
 	return (
-		<div name="contact" className="w-full h-screen bg-[#0a192f] p-8 flex flex-col justify-center items-center ">
+		<div name="contact" className="w-full md:h-screen bg-[#0a192f] p-8 flex flex-col justify-center items-center ">
 			<form
 				action="https://getform.io/f/d13a333b-85fc-4e24-9b04-863d3cf6576e"
 				method="POST"

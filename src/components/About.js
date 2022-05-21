@@ -3,7 +3,7 @@ import Myresume from '../assets/resume.pdf';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 const About = () => {
 	return (
-		<div name="about" className="w-full h-[98vh] bg-[#0a192f] text-gray-300">
+		<div name="about" className="w-full md:h-screen bg-[#0a192f] text-gray-300">
 			<div className="flex flex-col justify-center items-center w-full h-full px-8 sm:px-20">
 				<div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
 					<div className="sm:text-right pb-8">
