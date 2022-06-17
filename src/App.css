@@ -610,10 +610,6 @@ li {
   display: none;
 }
 
-.h-\[98vh\] {
-  height: 98vh;
-}
-
 .h-full {
   height: 100%;
 }
@@ -788,6 +784,10 @@ li {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  object-fit: cover;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -839,9 +839,18 @@ li {
   padding-bottom: 1.25rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-8 {
