@@ -22,14 +22,7 @@ export default function Skills() {
 				</div>
 				{/* container for skills */}
 				<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 py-8">
-					<div className="flex flex-col pt-4 items-center justify-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-						<img className="mx-auto w-16" src={HTML} alt="html icon" />
-						<p className="my-4">HTML</p>
-					</div>
-					<div className="flex flex-col pt-4 items-center justify-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-						<img className="mx-auto w-16" src={CSS} alt="html icon" />
-						<p className="my-4">CSS</p>
-					</div>
+					
 					<div className="flex flex-col pt-4 items-center justify-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img className="mx-auto w-16" src={JAVASCRIPT} alt="html icon" />
 						<p className="my-4">Javascript</p>
