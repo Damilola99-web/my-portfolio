@@ -10,7 +10,7 @@ export default function Home() {
 				<h1 className="text-4xl sm:text-6xl text-[#ccd6f6] font-bold">Wahab Abdul-Rasheed</h1>
 				<h2 className="text-3xl sm:text-5xl text-[#8892b0] font-bold">I'm a Front-End Developer</h2>
 				<p className="text-[#8892b0] py-4 max-w-[700px]">
-					I'm a Front-End Developer specializing in building exceptional digital experiences. Currently, I'm
+					I'm a FrontEnd Developer specializing in building exceptional digital experiences. Currently, I'm
 					focused on building responsive and dynamic web application
 				</p>
 				<div>
